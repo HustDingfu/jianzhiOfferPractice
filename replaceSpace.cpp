@@ -15,17 +15,17 @@ void replaceSpace(char *str,int length) {
         return;
         
     int cntOfSpace = 0;
-    for(int i= 0; i < length; i++) {
+    int len = 0;//字符串的长度
+    for(int i= 0; str[i]!='\0'; i++,len++) {
         if(' ' == str[i]) cntOfSpace++;
     }
-    int i=length, j=length+2*cntOfSpace;
+    int i=len, j=len+2*cntOfSpace;
     // j > i当j==i，就不会再发生替换了，提前结束循环
     while( i>=0 && j>i){
         if(' ' == str[i]){
-            str[j] = '0';
-            str[j-1] = '2';
-            str[j-2] = '%';
-            j -= 3;
+            str[j--] = '0';
+            str[j--] = '2';
+            str[j--] = '%';
         }else {
             str[j--] = str[i];
         }
