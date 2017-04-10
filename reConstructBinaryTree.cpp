@@ -26,7 +26,8 @@ TreeNode* reConstructBinaryTree(vector<int> pre,vector<int> vin) {
     TreeNode* root = new TreeNode(pre[0]);
     //中序遍历中找到根节点的迭代器位置
     auto iter = find(vin.begin(), vin.end(),pre[0]);
-  
+	//在vin中是否找到元素
+	if(iter == vin.end()) throw new exception;
     //用以递归寻找左子树的根节点的前序遍历和中序遍历数组   
     vector<int> preOfLeft(pre.begin()+1, pre.begin()+(iter-vin.begin())+1);
     vector<int> vinOfLeft(vin.begin(), iter);
