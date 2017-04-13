@@ -11,12 +11,15 @@
 9. 斐波拉契数列			fabonacci.cpp
 10. 二进制1的个数		numberOf1InBinary.cpp
 11. 数值的整数平方		power.cpp
-14. 重排数组奇数在前		reOrderArray.cpp
+14. 重排数组奇数在前	reOrderArray.cpp
 15. 链表倒数第k个节点	findKthToTail.cpp
-16. 反转链表				reverseList.cpp
-17. 合并两个排序链表		mergeSortedList.cpp	
+16. 反转链表			reverseList.cpp
+17. 合并两个排序链表	mergeSortedList.cpp	
 18. 树的子结构			hasSubTree.cpp
 19. 二叉树镜像			mirrorOfBinaryTree.cpp
 20. 顺时针打印矩阵		printMatrix.cpp
-21. 最小元素的栈			minStack.cpp
+21. 最小元素的栈		minStack.cpp
+22. 栈的压入和弹出		isPopOrder.cpp
+23. 层次遍历二叉树		printFromTopToBottom.cpp
+24. 二叉树后序遍历序列	verifySquenceOfBST.cpp		
 
