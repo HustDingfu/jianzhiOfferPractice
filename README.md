@@ -21,5 +21,15 @@
 21. 最小元素的栈		minStack.cpp
 22. 栈的压入和弹出		isPopOrder.cpp
 23. 层次遍历二叉树		printFromTopToBottom.cpp
-24. 二叉树后序遍历序列	verifySquenceOfBST.cpp		
+24. 二叉树后序遍历序列	verifySquenceOfBST.cpp
+25. 中和为某一值的路径	findPath.cpp
+26. 复杂链表的复杂		cloneRandomList.cpp
+27. 排序树转为双向链表	binaryTreeConvertToList.cpp
+28. 字符串的排列		permutation.cpp 
+29. 出现次数超过一半	moreThanHalfNum.cpp
+30. 求最小的K个数		getLeastNumbers.cpp
+31. 子数组的最大和		findGreatestSumOfSubArray.cpp
+33. 数组组成最小的数	printMinNumber.cpp
+
+
 
