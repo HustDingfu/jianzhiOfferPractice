@@ -30,6 +30,13 @@
 30. 求最小的K个数		[getLeastNumbers.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/getLeastNumbers.cpp)
 31. 子数组的最大和		[findGreatestSumOfSubArray.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/findGreatestSumOfSubArray.cpp)
 33. 数组组成最小的数	[printMinNumber.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/printMinNumber.cpp)
+34. 寻找第n个丑数		[getUglyNumber.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/getUglyNumber.cpp)
+35. 第一个只出现一次的数[firstNotRepeatingChar](https://github/HustDingfu/jianzhiOfferPractice/blob/master/firstNotRepeatingChar.cpp)
+37. 链表的公共节点		[findFirstCommonNode.cpp](https://github/HustDingfu/jianzhiOfferPractice/blob/master/findFirstCommonNode.cpp)
+38. K在数组中出现次数	[getNumberOfK.cpp](https://github/HustDingfu/jianzhiOfferPractice/blob/master/getNumberOfK.cpp)
+39. 二叉树的深度		[treeDepth.cpp](https://github/HustDingfu/jianzhiOfferPractice/blob/master/treeDepth.cpp)
+40. 数组中出现一次的数	[findNumsAppearOnce.cpp](https://github/HustDingfu/jianzhiOfferPractice/blob/master/findNumsAppearOnce.cpp)
+41. 连续序列和为n		[findContinuousSequence.cpp](https://github/HustDingfu/jianzhiOfferPractice/blob/master/findContinuousSequence.cpp)
 
 
 
