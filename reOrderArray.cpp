@@ -12,16 +12,16 @@
 class Solution {
 public:
     void reOrderArray(vector<int> &array) {
-		for(int i = 1; i < array.size(); i++) {
-			//偶数就进入下一次循环
-            if((array[i]&1)==0) continue;
+	for(int i = 1; i < array.size(); i++) {
+		//偶数就进入下一次循环
+        	if((array[i]&1)==0) continue;
         	
-			int pivot = array[i];         
+		int pivot = array[i];         
         	int j = i-1;
-			//奇数就插入排序式后移
+		//奇数就插入排序式后移
         	while( (array[j]&1) == 0 && j >= 0){
-            	array[j+1] = array[j];
-            	j--;
+            		array[j+1] = array[j];
+            		j--;
           	}
           	array[j+1] = pivot;
       	}
