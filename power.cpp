@@ -31,7 +31,7 @@ public:
     }
 
     bool equal(double num1, double num2){
-        if(num1 - num2 < ERR && num1 - num2 > ERR) 
+        if(num1 - num2 < ERR && num1 - num2 > -ERR) 
             return true;
         return false;
     }
