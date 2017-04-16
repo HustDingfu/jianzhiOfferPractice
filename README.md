@@ -37,6 +37,7 @@
 39. 二叉树的深度		[treeDepth.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/treeDepth.cpp)
 40. 数组中出现一次的数	[findNumsAppearOnce.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/findNumsAppearOnce.cpp)
 41. 连续序列和为n		[findContinuousSequence.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/findContinuousSequence.cpp)
+42. 序列左移			[leftRotateString.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/leftRotateString.cpp)
 
 
 
