@@ -9,7 +9,7 @@
 class Solution {
 public:
     void Mirror(TreeNode *pRoot) {
-		if(nullptr == pRoot)
+	if(nullptr == pRoot)
             return;
         
         Mirror(pRoot->left);
