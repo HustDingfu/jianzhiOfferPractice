@@ -8,9 +8,8 @@ ps：我们约定空树不是任意一个树的子结构
 */
 class Solution {
 public:
-    bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2)
-    {
-		if(nullptr == pRoot1 || nullptr == pRoot2)
+    bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2) {
+	if(nullptr == pRoot1 || nullptr == pRoot2)
             return false;
         
         if(pRoot1->val == pRoot2->val) {
