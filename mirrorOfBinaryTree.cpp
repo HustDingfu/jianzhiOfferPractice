@@ -11,11 +11,10 @@ public:
     void Mirror(TreeNode *pRoot) {
 	if(nullptr == pRoot)
             return;
-        
-        Mirror(pRoot->left);
-        Mirror(pRoot->right);
         TreeNode* pNode = pRoot->left;
         pRoot->left = pRoot->right;
         pRoot->right = pNode;
+        Mirror(pRoot->left);
+        Mirror(pRoot->right);
     }
 };
