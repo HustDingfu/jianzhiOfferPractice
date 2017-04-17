@@ -22,15 +22,15 @@ public:
             
 
             for(int i = row+1; i < rows - row; i++)
-                	res.push_back(matrix[i][cols-col-1]);
+                res.push_back(matrix[i][cols-col-1]);
 
             if(rows-row-1 > row)
             	for(int j = cols-col-2; j >= col; j-- ) 
                 	res.push_back(matrix[rows-row-1][j]);
             
-			if(col < cols-col-1)
+	    if(col < cols-col-1)
             	for(int i = rows-row-2; i > row; i--)
-					res.push_back(matrix[i][col]);
+			res.push_back(matrix[i][col]);
             
             row++; col++;
         }
