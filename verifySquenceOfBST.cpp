@@ -11,7 +11,7 @@ class Solution {
 public:
     bool VerifySquenceOfBST(const vector<int>& sequence) {
         if(sequence.empty()) return false;
-		return VerifySquenceOfBST(sequence,0,sequence.size() - 1);
+	return VerifySquenceOfBST(sequence,0,sequence.size() - 1);
     }
     bool VerifySquenceOfBST(const vector<int>& sequence, int low, int high){
 	if(low >= high) return true;
