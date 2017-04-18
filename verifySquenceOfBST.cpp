@@ -14,7 +14,7 @@ public:
 		return VerifySquenceOfBST(sequence,0,sequence.size() - 1);
     }
     bool VerifySquenceOfBST(const vector<int>& sequence, int low, int high){
-		if(low >= high) return true;
+	if(low >= high) return true;
         int mid;
        
        	for(mid = low; sequence[mid] < sequence[high];mid++);
