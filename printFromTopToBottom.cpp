@@ -16,7 +16,7 @@ struct TreeNode {
 class Solution {
 public:
     vector<int> PrintFromTopToBottom(TreeNode* root) {
-		if(nullptr == root) return vector<int>();
+	if(nullptr == root) return vector<int>();
         vector<int> res;
         queue<TreeNode*> data;
 		data.push(root);
