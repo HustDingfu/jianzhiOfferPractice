@@ -18,21 +18,21 @@ struct TreeNode {
 class Solution {
 public:
     vector<vector<int> > FindPath(TreeNode* root,int expectNumber) {
-		vector<vector<int>> res;
+	vector<vector<int>> res;
         vector<int> tmpPath;
      	FindPath(root,res,tmpPath,expectNumber);
         return res;
     }
     
     void FindPath(TreeNode* root, vector<vector<int>> &res,
-                 vector<int>& tmpPath, int expectNumber) {
+        vector<int>& tmpPath, int expectNumber) {
         if(root == nullptr ) return ;
         tmpPath.push_back(root->val);
         if(root->val == expectNumber && root->left==nullptr && root->right==nullptr) {
             res.push_back(tmpPath);
         }else {	
         	if(root->left) 
-            	FindPath(root->left,res,tmpPath,expectNumber - root->val);
+            		FindPath(root->left,res,tmpPath,expectNumber - root->val);
         	if(root->right)
           		FindPath(root->right,res,tmpPath,expectNumber - root->val);
         }
