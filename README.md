@@ -29,6 +29,7 @@
 29. 出现次数超过一半	[moreThanHalfNum.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/moreThanHalfNum.cpp)
 30. 求最小的K个数		[getLeastNumbers.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/getLeastNumbers.cpp)
 31. 子数组的最大和		[findGreatestSumOfSubArray.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/findGreatestSumOfSubArray.cpp)
+32. 数组逆序对			[inversePairs.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/inversePairs.cpp)
 33. 数组组成最小的数	[printMinNumber.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/printMinNumber.cpp)
 34. 寻找第n个丑数		[getUglyNumber.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/getUglyNumber.cpp)
 35. 第一个只出现一次的数[firstNotRepeatingChar.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/firstNotRepeatingChar.cpp)
