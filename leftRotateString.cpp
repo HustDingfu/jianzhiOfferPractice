@@ -23,3 +23,42 @@ public:
         return str;
     }
 };
+
+
+
+
+/*
+题目:牛客最近来了一个新员工Fish，每天早晨总是会拿着
+一本英文杂志，写些句子在本子上。同事Cat对Fish写的内
+容颇感兴趣，有一天他向Fish借来翻看，但却读不懂它的意
+思。例如，“student. a am I”。后来才意识到，这家伙
+原来把句子单词的顺序翻转了，正确的句子应该是
+“I am a student.”。Cat对一一的翻转这些单词顺序可
+不在行，你能帮助他么？
+*/
+/*
+思路1:反转整个字符串，再反转每个单词；
+思路2:可以用stringstream试着去处理//这种方法可能会有些问题
+但依旧在牛客网上通过了测试
+*/
+
+class Solution {
+public:
+    string ReverseSentence(string str) {
+        istringstream is(str);
+        ostringstream os;
+        string tmp;
+        vector<string> s;
+        while(is >> tmp){
+            s.push_back(tmp);
+        }
+        if(s.empty()) return str;
+        reverse(s.begin(),s.end());
+        for(int i = 0; i < s.size();i++){
+            if(i!=0) os << " ";
+            os << s[i];
+        }
+            
+        return os.str();
+    }
+};

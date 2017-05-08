@@ -40,6 +40,9 @@
 40. 数组中出现一次的数	[findNumsAppearOnce.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/findNumsAppearOnce.cpp)
 41. 连续序列和为n		[findContinuousSequence.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/findContinuousSequence.cpp)
 42. 序列左移			[leftRotateString.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/leftRotateString.cpp)
-
-
-
+44. 是否是顺子			[isContinuous.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/isContinuous.cpp)
+51. 字符串变成整数		[strToInt.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/strToInt.cpp)
+52. 找出重复的数字		[duplicate.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/duplicate.cpp)
+53. 构建成绩数组		[multiply.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/multiply.cpp)
+54. 找出环的入口结点	[entryNodeOfloop.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/entryNodeOfloop.cpp)
+55. 删除链表重复结点    [deleteDuplication.cpp](https://github.com/HustDingfu/jianzhiOfferPractice/blob/master/deleteDuplication.cpp)
